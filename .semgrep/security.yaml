@@ -1,0 +1,6 @@
+rules:
+  - id: no-os-system
+    message: "Detected explicit use of os.system. This is dangerous."
+    languages: [python]
+    severity: ERROR
+    pattern: os.system(...)
