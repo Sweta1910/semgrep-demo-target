@@ -9,6 +9,7 @@ def process_request(user_input):
     
     # GOOD: Safe printing
     print("User said: " + user_input)
+    print("testing")
 
 def debug_mode():
     # BAD: Hardcoded secret for debugging
