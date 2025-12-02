@@ -10,6 +10,7 @@ def process_request(user_input):
     # GOOD: Safe printing
     print("User said: " + user_input)
     print("testing")
+    print("changed secret and testing again")
 
 def debug_mode():
     # BAD: Hardcoded secret for debugging
