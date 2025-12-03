@@ -3,7 +3,9 @@
 # test with block setting
 #testing
 import os
+import subprocess
 
+"""
 def process_request(user_input):
     print("Processing request...")
     
@@ -12,10 +14,7 @@ def process_request(user_input):
     
     # GOOD: Safe printing
     print("User said: " + user_input)
-    print("testing")
-    print("changed secret and testing again")
 
-def debug_mode():
-    # BAD: Hardcoded secret for debugging
-    api_key = "sk_live_1234567890abcdef"
-    print(f"Connecting with {api_key}")
+"""
+def process_request(user_input):
+    subprocess.run(["echo", user_input], shell=False)
